@@ -125,9 +125,20 @@ img {
 }
 
 /* main */
+
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
+
+.container-first-section {
+  width: 100%;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
 /* Section 1 */
 .hero-title {
   font-size: 56px;
@@ -135,10 +146,16 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
 }
 
 .hero-button {
-  background-color: #4d5ae5;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: var(--button-bg-color, #4d5ae5);
+  border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
