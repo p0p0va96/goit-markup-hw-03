@@ -132,8 +132,10 @@ img {
 }
 
 .container-first-section {
-  width: 100%;
-  max-width: 1158px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
   box-sizing: border-box;
