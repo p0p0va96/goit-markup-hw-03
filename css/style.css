@@ -340,12 +340,25 @@ img {
   border: 1px solid #e7e9fc;
 }
 
+.portfolio-content {
+  padding: 32px 16px;
+  border-top: none;
+  text-align: center;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-category {
@@ -353,6 +366,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.portfolio-item:nth-child(3n) {
+  margin-right: 0;
 }
 
 /* Footer */
