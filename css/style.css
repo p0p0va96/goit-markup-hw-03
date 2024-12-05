@@ -315,10 +315,11 @@ img {
 }
 
 .container {
-  border: 1px solid #e7e9fc;
-  max-width: 1200px;
+  max-width: 1158px;
+  min-width: 320px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 .section-title-portfolio {
