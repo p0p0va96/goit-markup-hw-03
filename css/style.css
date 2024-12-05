@@ -175,7 +175,6 @@ img {
 }
 
 .container {
-  /* Можна додати додаткові стилі для контейнера за потреби */
 }
 
 .visually-hidden {
@@ -349,6 +348,7 @@ img {
 }
 
 .portfolio-image {
+  width: calc((100% - 48px) / 3);
   width: 100%;
   height: auto;
   display: block;
