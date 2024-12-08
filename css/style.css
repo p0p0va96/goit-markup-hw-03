@@ -4,8 +4,17 @@ body {
   background-color: #ffffff;
 }
 
+h1 h2 h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 ul {
   padding-left: 0;
+  list-style: none;
 }
 
 /* Logo studio*/
@@ -40,14 +49,12 @@ img {
 /* Header */
 
 .container {
-  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
   box-sizing: border-box;
 }
 
 .header {
-  width: 1158px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -55,7 +62,6 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
   box-sizing: border-box;
@@ -140,6 +146,7 @@ img {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  margin: 0 auto;
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
@@ -159,6 +166,8 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button:hover {
@@ -173,13 +182,6 @@ img {
 
 .advantages {
   padding: 120px 0;
-}
-
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-  box-sizing: border-box;
 }
 
 .visually-hidden {
@@ -274,9 +276,7 @@ img {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-  overflow: hidden;
   text-align: center;
-  background-color: #f9f9f9;
 }
 
 .team-photo {
@@ -315,8 +315,7 @@ img {
 }
 
 .container {
-  max-width: 1158px;
-  min-width: 320px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
